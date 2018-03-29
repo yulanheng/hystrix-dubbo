@@ -25,7 +25,7 @@ public class HelloController {
                    try {
                        String ret=helloService.hello(String.valueOf(j));
                    }catch (Exception e){
-
+                        e.printStackTrace();
                    }
                  }
                }
